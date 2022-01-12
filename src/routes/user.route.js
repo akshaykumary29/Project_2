@@ -5,9 +5,11 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
+// route to register user
 router.post('/register', userController.registerUser);
 
-
+// route to login user
+router.get('/login', userController.loginUser);
 
 // route to get all users
 // router.get('', userController.getAllUsers);

@@ -32,7 +32,33 @@ import * as UserService from '../services/user.service';
 
 };
 
-
+/**
+ * Controller for User login
+ * @param {object} req - request object
+ * @param {object} res - request object
+ * @param {function} next 
+ */
+ export const loginUser = async (req, res, next) => {
+  try {
+    const data = await UserService.loginUser(req.body, res);
+    if (data.success == true) {
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'User Login Successfully'
+      });
+    }
+    else {
+      res.status(HttpStatus.FORBIDDEN).json({
+        code: HttpStatus.FORBIDDEN,
+        data: "",
+        message: 'Invalid Login'
+      });
+    }
+  } catch (error) {
+    next(error);
+  }
+};
 
 /**
  * Controller to get all users available
