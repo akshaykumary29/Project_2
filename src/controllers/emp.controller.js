@@ -29,3 +29,30 @@ export const addEmployee = async (req, res, next) => {
     }
 };
 
+/**
+ * Cotroller to get employees
+ * @param {object} req - request object
+ * @param {object} res - response object
+ * @param {function} next 
+ */
+ export const getEmployee = async (req, res, next) => {
+    try {
+        const data = await EmpService.getEmployee(req.body, res);
+        if (data) {
+            res.status(HttpStatus.OK).json({
+                code: HttpStatus.OK,
+                data: data,
+                message: 'Employee Details found'
+            });
+        }
+        else {
+            res.status(HttpStatus.NOT_FOUND).json({
+                code: HttpStatus.FORBIDDEN,
+                data: "",
+                message: 'Employee Details not found'
+            });
+        }
+    } catch (error) {
+        next(error);
+    }
+};

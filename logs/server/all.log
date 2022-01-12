@@ -819,3 +819,5 @@ error:
       method - POST 
       IP - ::ffff:127.0.0.1
      {"timestamp":"2022-01-12T11:38:00.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T15:11:43.856Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T15:11:44.204Z"}

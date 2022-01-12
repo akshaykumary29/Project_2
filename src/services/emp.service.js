@@ -13,3 +13,7 @@ export const addEmployeeService = async (req, res) => {
     return await newEmployee.save()
 };
 
+export const getEmployee = async(req, res) => {
+    let empData = await Employee.findById({ _id: req._id });
+    return empData;
+};

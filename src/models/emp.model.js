@@ -22,7 +22,7 @@ const userSchema = new Schema(
       },
       startdate: {
         Type: Date
-      },
+      }
     },
       {
           timestamps: true
