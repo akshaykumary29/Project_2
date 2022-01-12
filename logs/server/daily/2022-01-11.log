@@ -2,3 +2,202 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T0
 info: Connected to the database. {"timestamp":"2022-01-11T02:13:02.212Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T05:20:37.351Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T05:20:38.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T07:02:28.831Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:02:29.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:18:18.184Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"Error: \n    at new MongooseError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-11T11:18:49.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:22:38.439Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"Error: \n    at new MongooseError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-11T11:23:10.137Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:31:37.977Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:32:12.178Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:37:45.051Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:41:32.879Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:47:02.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:49:58.322Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"Error: \n    at new MongooseError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-11T11:50:29.286Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T11:51:32.240Z"}
+error: Could not connect to the database. failed to connect to server [cluster0-shard-00-02.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 4 to cluster0-shard-00-02.ejyab.mongodb.net:27017 closed
+    at TLSSocket.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (events.js:300:26)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
+    at net.js:659:12
+    at TCP.done (_tls_wrap.js:481:7) {
+  name: 'MongoNetworkError'
+}] {"name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [cluster0-shard-00-02.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 4 to cluster0-shard-00-02.ejyab.mongodb.net:27017 closed\n    at TLSSocket.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:444:9)\n    at Object.onceWrapper (events.js:300:26)\n    at TLSSocket.emit (events.js:210:5)\n    at TLSSocket.EventEmitter.emit (domain.js:478:20)\n    at net.js:659:12\n    at TCP.done (_tls_wrap.js:481:7) {\n  name: 'MongoNetworkError'\n}]\n    at Pool.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:441:11)\n    at Pool.emit (events.js:210:5)\n    at Pool.EventEmitter.emit (domain.js:478:20)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:564:14\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:1014:9\n    at callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:75:5)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:103:9\n    at _callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:333:7)\n    at Connection.errorHandler (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:348:7)\n    at Object.onceWrapper (events.js:300:26)","timestamp":"2022-01-11T11:57:58.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:59:02.936Z"}
+error: Could not connect to the database. failed to connect to server [cluster0-shard-00-00.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 4 to cluster0-shard-00-00.ejyab.mongodb.net:27017 closed
+    at TLSSocket.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (events.js:300:26)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
+    at net.js:659:12
+    at TCP.done (_tls_wrap.js:481:7) {
+  name: 'MongoNetworkError'
+}] {"name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [cluster0-shard-00-00.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 4 to cluster0-shard-00-00.ejyab.mongodb.net:27017 closed\n    at TLSSocket.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:444:9)\n    at Object.onceWrapper (events.js:300:26)\n    at TLSSocket.emit (events.js:210:5)\n    at TLSSocket.EventEmitter.emit (domain.js:478:20)\n    at net.js:659:12\n    at TCP.done (_tls_wrap.js:481:7) {\n  name: 'MongoNetworkError'\n}]\n    at Pool.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:441:11)\n    at Pool.emit (events.js:210:5)\n    at Pool.EventEmitter.emit (domain.js:478:20)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:564:14\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:1014:9\n    at callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:75:5)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:103:9\n    at _callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:333:7)\n    at Connection.errorHandler (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:348:7)\n    at Object.onceWrapper (events.js:300:26)","timestamp":"2022-01-11T11:59:05.543Z"}
+error: Could not connect to the database. failed to connect to server [cluster0-shard-00-01.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 5 to cluster0-shard-00-01.ejyab.mongodb.net:27017 closed
+    at TLSSocket.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (events.js:300:26)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
+    at net.js:659:12
+    at TCP.done (_tls_wrap.js:481:7) {
+  name: 'MongoNetworkError'
+}] {"name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [cluster0-shard-00-01.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 5 to cluster0-shard-00-01.ejyab.mongodb.net:27017 closed\n    at TLSSocket.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:444:9)\n    at Object.onceWrapper (events.js:300:26)\n    at TLSSocket.emit (events.js:210:5)\n    at TLSSocket.EventEmitter.emit (domain.js:478:20)\n    at net.js:659:12\n    at TCP.done (_tls_wrap.js:481:7) {\n  name: 'MongoNetworkError'\n}]\n    at Pool.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:441:11)\n    at Pool.emit (events.js:210:5)\n    at Pool.EventEmitter.emit (domain.js:478:20)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:564:14\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:1014:9\n    at callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:75:5)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:103:9\n    at _callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:333:7)\n    at Connection.errorHandler (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:348:7)\n    at Object.onceWrapper (events.js:300:26)","timestamp":"2022-01-11T11:59:17.784Z"}
+error: Could not connect to the database. failed to connect to server [cluster0-shard-00-02.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 3 to cluster0-shard-00-02.ejyab.mongodb.net:27017 closed
+    at TLSSocket.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongodb\lib\core\connection\connection.js:444:9)
+    at Object.onceWrapper (events.js:300:26)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:478:20)
+    at net.js:659:12
+    at TCP.done (_tls_wrap.js:481:7) {
+  name: 'MongoNetworkError'
+}] {"name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [cluster0-shard-00-02.ejyab.mongodb.net:27017] on first connect [MongoNetworkError: connection 3 to cluster0-shard-00-02.ejyab.mongodb.net:27017 closed\n    at TLSSocket.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:444:9)\n    at Object.onceWrapper (events.js:300:26)\n    at TLSSocket.emit (events.js:210:5)\n    at TLSSocket.EventEmitter.emit (domain.js:478:20)\n    at net.js:659:12\n    at TCP.done (_tls_wrap.js:481:7) {\n  name: 'MongoNetworkError'\n}]\n    at Pool.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\topologies\\server.js:441:11)\n    at Pool.emit (events.js:210:5)\n    at Pool.EventEmitter.emit (domain.js:478:20)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:564:14\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:1014:9\n    at callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:75:5)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connect.js:103:9\n    at _callback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:333:7)\n    at Connection.errorHandler (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongodb\\lib\\core\\connection\\connection.js:348:7)\n    at Object.onceWrapper (events.js:300:26)","timestamp":"2022-01-11T12:05:45.697Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:07:27.839Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T12:09:00.428Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:37:42.651Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:37:56.963Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:46:15.367Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:48:22.059Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:52:18.859Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:52:29.270Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:53:50.824Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:58:02.810Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:01:27.178Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:01:43.432Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:04:28.568Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:04:45.576Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:18:57.455Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:19:08.428Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:19:19.693Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:19:50.446Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:21:13.039Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:23:06.596Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:23:17.047Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:27:29.088Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:27:38.944Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:38:41.813Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T13:44:36.151Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T13:45:05.856Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T13:50:41.739Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:22:27.821Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:22:39.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:25:15.511Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:25:25.128Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:26:48.763Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:32:07.048Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:34:01.020Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:34:10.794Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:10:53.990Z"}
+error: 
+    status - 500 
+    message - Error: Operation `users.find()` buffering timed out after 10000ms
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at Timeout._onTimeout (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T17:32:24.272Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:52:28.031Z"}
