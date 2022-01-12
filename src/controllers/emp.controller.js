@@ -56,3 +56,31 @@ export const addEmployee = async (req, res, next) => {
         next(error);
     }
 };
+
+
+/**
+ * Controller to update employees
+ * @param {object} req - request object
+ * @param {object} res - request object
+ * @param {function} next 
+ */
+export const updateEmployee = async (req, res, next) => {
+    try {
+        const data = await EmpService.updateEmpService(req.body, res);
+        if (data) {
+            res.status(HttpStatus.OK).json({
+                code: HttpStatus.OK,
+                data: data,
+                message: 'Employee Details Updated'
+            });
+        } else {
+            res.status(HttpStatus.NOT_FOUND).json({
+                code: HttpStatus.NOT_FOUND,
+                data: "",
+                message: 'Employee Details not Found'
+            });
+        }
+    } catch (error) {
+        next(error);
+    }
+};

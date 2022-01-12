@@ -11,4 +11,7 @@ router.post('/addEmp', userAuth, employeeController.addEmployee);
 // route to get employee
 router.get('/getEmp', userAuth, employeeController.getEmployee);
 
+// route to update employee
+router.put('/updateEmp', userAuth, employeeController.updateEmployee);
+
 module.exports = router;
