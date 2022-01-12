@@ -520,3 +520,111 @@ info: ::ffff:127.0.0.1 - - [12/Jan/2022:04:42:30 +0000] "GET /api/v1/users/login
 
 info: ::ffff:127.0.0.1 - - [12/Jan/2022:04:50:23 +0000] "GET /api/v1/users/login HTTP/1.1" 403 48 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:06:11:59 +0000] "POST /api/v1/users/register HTTP/1.1" 200 284 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:14:34 +0000] "POST /api/v1/users/register HTTP/1.1" 200 286 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:23:10 +0000] "GET /api/v1/users/login HTTP/1.1" 403 48 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:24:57 +0000] "GET /api/v1/users/login HTTP/1.1" 403 48 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:26:22 +0000] "GET /api/v1/users/login HTTP/1.1" 403 48 "-" "Thunder Client (https://www.thunderclient.io)"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\Users\Admin\Desktop\Project_2\emppayroll\src\routes\/index.js:17:10)
+    at Object.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Module._compile (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Object.newLoader [as .js] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:822:32) {"date":"Wed Jan 12 2022 12:58:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23163},"process":{"argv":["node","C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\index.js"],"cwd":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"external":20881166,"heapTotal":53325824,"heapUsed":39704664,"rss":81743872},"pid":3308,"uid":null,"version":"v13.0.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:971:30)\n    at Module._compile (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)\n    at Object.newLoader [as .js] (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:822:32)","trace":[{"column":13,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":971,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1011,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":822,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\Users\Admin\Desktop\Project_2\emppayroll\src\routes\/index.js:17:10)
+    at Object.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Module._compile (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Object.newLoader [as .js] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:822:32) {"date":"Wed Jan 12 2022 12:59:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23236},"process":{"argv":["node","C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\index.js"],"cwd":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"external":20918330,"heapTotal":48607232,"heapUsed":39130124,"rss":73187328},"pid":9312,"uid":null,"version":"v13.0.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:971:30)\n    at Module._compile (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)\n    at Object.newLoader [as .js] (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:822:32)","trace":[{"column":13,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":971,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1011,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":822,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:30:54 +0000] "GET /api/v1/users/login HTTP/1.1" 403 48 "-" "Thunder Client (https://www.thunderclient.io)"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\Users\Admin\Desktop\Project_2\emppayroll\src\routes\/index.js:17:10)
+    at Object.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Module._compile (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Object.newLoader [as .js] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:822:32) {"date":"Wed Jan 12 2022 13:06:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23630},"process":{"argv":["node","C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\index.js"],"cwd":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"external":20884676,"heapTotal":48607232,"heapUsed":38369052,"rss":73277440},"pid":9988,"uid":null,"version":"v13.0.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:971:30)\n    at Module._compile (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)\n    at Object.newLoader [as .js] (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:822:32)","trace":[{"column":13,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":971,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1011,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":822,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\Users\Admin\Desktop\Project_2\emppayroll\src\routes\/index.js:17:10)
+    at Object.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Module._compile (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Object.newLoader [as .js] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:822:32) {"date":"Wed Jan 12 2022 13:07:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23672},"process":{"argv":["node","C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\index.js"],"cwd":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"external":20870618,"heapTotal":48607232,"heapUsed":38159536,"rss":72974336},"pid":8752,"uid":null,"version":"v13.0.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:971:30)\n    at Module._compile (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)\n    at Object.newLoader [as .js] (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:822:32)","trace":[{"column":13,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":971,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1011,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":822,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\express\lib\router\index.js:464:13)
+    at routes (C:\Users\Admin\Desktop\Project_2\emppayroll\src\routes\/index.js:17:10)
+    at Object.<anonymous> (C:\Users\Admin\Desktop\Project_2\emppayroll\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Module._compile (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Object.newLoader [as .js] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:822:32) {"date":"Wed Jan 12 2022 13:08:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23750},"process":{"argv":["node","C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\index.js"],"cwd":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"external":20905502,"heapTotal":48607232,"heapUsed":38641812,"rss":72929280},"pid":10024,"uid":null,"version":"v13.0.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:971:30)\n    at Module._compile (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1011:10)\n    at Object.newLoader [as .js] (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:822:32)","trace":[{"column":13,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":971,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1011,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":822,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:42:04 +0000] "POST /api/v1/users/register HTTP/1.1" 200 281 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:44:54 +0000] "GET /api/v1/users/login HTTP/1.1" 200 364 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:07:47:54 +0000] "GET /api/v1/users/login HTTP/1.1" 200 364 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:08:01:50 +0000] "POST /api/v1/users/register HTTP/1.1" 200 281 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:08:03:26 +0000] "POST /api/v1/users/register HTTP/1.1" 200 282 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:08:04:07 +0000] "POST /api/v1/users/register HTTP/1.1" 200 283 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:08:04:48 +0000] "POST /api/v1/users/register HTTP/1.1" 200 323 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:08:06:37 +0000] "GET /api/v1/users/login HTTP/1.1" 200 410 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:09:47:14 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:09:51:59 +0000] "POST /api/v1/users/register HTTP/1.1" 200 319 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:09:52:35 +0000] "GET /api/v1/users/login HTTP/1.1" 200 405 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:09:57:32 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:09:17 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:11:11 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:22:45 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:22:46 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:23:16 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:32:18 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:33:12 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:36:58 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:10:55:42 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:11:37:16 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:11:38:00 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+

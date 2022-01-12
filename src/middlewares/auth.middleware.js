@@ -12,18 +12,31 @@ import jwt from 'jsonwebtoken';
 export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
+    console.log(bearerToken);
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    bearerToken = bearerToken.split(' ')[1];
+    // bearerToken = bearerToken.split(' ')[1];
 
-    // const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    const { user } = await jwt.verify(bearerToken, process.env.ACCESS_TOKEN_SECRET);
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
+    const user = await jwt.verify(bearerToken, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
+        if (err) {
+          return res
+            .status(HttpStatus.UNAUTHORIZED)
+            .send({ message: 'UNATHORIZED' });
+        } else {
+          req.body['data'] = decoded;
+          next();
+        }
+      }
+    );
+
+    // // const { user } = await jwt.verify(bearerToken, 'your-secret-key');
+    // const { user } = await jwt.verify(bearerToken, process.env.ACCESS_TOKEN_SECRET);
+    // res.locals.user = user;
+    // res.locals.token = bearerToken;
+    // next();
   } catch (error) {
     next(error);
   }

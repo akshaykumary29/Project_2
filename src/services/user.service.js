@@ -10,8 +10,8 @@ export const registerUser = async (req,res) => {
 
     const hashedPassword = await bcrypt.hash(req.password, 8)
     let newUser = new User({
-        firstname: req.firstname,
-        lastname: req.lastname,
+        firstName: req.firstName,
+        lastName: req.lastName,
         email: req.email,
         password: hashedPassword
     })
@@ -22,6 +22,7 @@ export const registerUser = async (req,res) => {
 // login user
 export const loginUser = async (req, res) => {
   let findUser = await User.findOne({ email: req.email });
+  console.log(`user details ${findUser}`);
 
   if (findUser) {
     let matchPassword = await bcrypt.compare(

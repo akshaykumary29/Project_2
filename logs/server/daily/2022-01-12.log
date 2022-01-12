@@ -15,3 +15,157 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-12T04:30:22.404Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:36:24.221Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:37:05.721Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:38:24.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:40:02.386Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:40:04.668Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 58
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:478:20)
+    at endReadableNT (_stream_readable.js:1198:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T07:41:47.433Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 58
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:478:20)
+    at endReadableNT (_stream_readable.js:1198:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/register 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T07:41:53.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:44:44.336Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:44:47.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:55:24.864Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"Error: \n    at new MongooseError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Admin\\Desktop\\Project_2\\emppayroll\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-12T07:55:55.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T08:00:54.887Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T08:00:55.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T08:03:21.623Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T08:03:22.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T08:04:44.695Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T08:04:45.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T08:06:26.465Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T08:06:27.649Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\Users\Admin\Desktop\Project_2\emppayroll\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/employee/addEmp 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T09:44:33.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T09:47:10.545Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:47:11.031Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\Users\Admin\Desktop\Project_2\emppayroll\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/employee/addEmp 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T09:47:14.853Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T09:57:32.902Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:09:17.755Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:11:11.338Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:22:45.106Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:22:46.048Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:23:16.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T10:32:11.654Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T10:32:12.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T10:33:09.335Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T10:33:09.666Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T10:55:42.541Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T11:37:16.445Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee/addEmp 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-12T11:38:00.408Z"}
