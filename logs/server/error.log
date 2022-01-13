@@ -784,3 +784,16 @@ error:
       method - POST 
       IP - ::ffff:127.0.0.1
      {"timestamp":"2022-01-12T11:38:00.408Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Admin\Desktop\Project_2\emppayroll\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/employee/getEmp 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:23:54.879Z"}

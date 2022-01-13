@@ -628,3 +628,23 @@ info: ::ffff:127.0.0.1 - - [12/Jan/2022:11:37:16 +0000] "POST /api/v1/employee/a
 
 info: ::ffff:127.0.0.1 - - [12/Jan/2022:11:38:00 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:18:24 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:19:30 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:20:50 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:20:52 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 401 25 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:17:19 +0000] "POST /api/v1/employee/addEmp HTTP/1.1" 200 284 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:23:54 +0000] "GET /api/v1/employee/getEmp HTTP/1.1" 500 144 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:24:34 +0000] "GET /api/v1/employee/getEmp HTTP/1.1" 200 279 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:29:01 +0000] "PUT /api/v1/employee/updateEmp HTTP/1.1" 200 344 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:05:13 +0000] "PUT /api/v1/employee/updateEmp HTTP/1.1" 200 344 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:33:31 +0000] "PUT /api/v1/employee/updateEmp HTTP/1.1" 200 344 "-" "Thunder Client (https://www.thunderclient.io)"
+

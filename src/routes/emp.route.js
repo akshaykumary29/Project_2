@@ -14,4 +14,7 @@ router.get('/getEmp', userAuth, employeeController.getEmployee);
 // route to update employee
 router.put('/updateEmp', userAuth, employeeController.updateEmployee);
 
+// route to delete employee
+router.delete('/deleteEmp', userAuth, employeeController.deleteEmployee);
+
 module.exports = router;

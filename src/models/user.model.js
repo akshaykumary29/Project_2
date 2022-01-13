@@ -3,16 +3,16 @@ import { Schema, model } from 'mongoose';
 const userSchema = new Schema(
   {
     firstName: {
-      type: String,
+      type: String
     },
     lastName: {
-      type: String,
+      type: String
     },
     email: {
-      type: String,
+      type: String
     },
     password: {
-      type: String,
+      type: String
     }
   },
   {
